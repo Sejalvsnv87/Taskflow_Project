@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream-100 text-ink-deep dark:bg-gray-950 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply relative min-h-screen overflow-hidden bg-cream-100 dark:bg-gray-950;
+  }
+
+  .page-heading {
+    @apply font-display text-2xl font-semibold italic text-ink-deep dark:font-sans dark:not-italic dark:text-white;
+  }
+
+  .page-subheading {
+    @apply text-sm text-ink-muted dark:text-gray-400;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-2xl bg-sage-500 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition hover:bg-sage-600 focus:outline-none focus:ring-2 focus:ring-sage-400 focus:ring-offset-2 disabled:opacity-50 dark:rounded-lg dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-500 dark:focus:ring-offset-gray-900;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-2xl border border-sage-200 bg-white/80 px-4 py-2.5 text-sm font-medium text-ink-deep transition hover:border-sage-300 hover:bg-sage-50 focus:outline-none focus:ring-2 focus:ring-sage-300 focus:ring-offset-2 disabled:opacity-50 dark:rounded-lg dark:border-gray-600 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700 dark:focus:ring-primary-500 dark:focus:ring-offset-gray-900;
+  }
+
+  .input-field {
+    @apply w-full rounded-2xl border border-sage-200 bg-sage-50/50 px-3 py-2.5 text-sm text-ink-deep shadow-sm transition placeholder:text-ink-muted/60 focus:border-sage-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-sage-200 dark:rounded-lg dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100 dark:focus:border-primary-500 dark:focus:ring-primary-500;
+  }
+
+  .card {
+    @apply rounded-3xl border border-sage-100/80 bg-white/90 p-4 shadow-card backdrop-blur-sm dark:rounded-xl dark:border-gray-700 dark:bg-gray-900 dark:shadow-sm;
+  }
+
+  .stat-card {
+    @apply rounded-3xl border border-sage-100 bg-gradient-to-br from-white to-sage-50/40 p-4 shadow-soft dark:rounded-xl dark:border-gray-700 dark:from-gray-900 dark:to-gray-900 dark:shadow-sm;
+  }
+
+  .nav-link-active {
+    @apply bg-sage-100 text-sage-700 dark:bg-primary-900/30 dark:text-primary-300;
+  }
+
+  .nav-link-inactive {
+    @apply text-ink-muted hover:bg-sage-50 hover:text-ink-deep dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200;
+  }
+
+  .auth-shell {
+    @apply relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-cream-100 via-sage-50 to-sand-100 px-4 dark:from-gray-950 dark:via-gray-950 dark:to-gray-900;
+  }
+
+  .kanban-column-todo {
+    @apply border-sage-400 bg-sage-50/40 dark:border-gray-600 dark:bg-transparent;
+  }
+
+  .kanban-column-progress {
+    @apply border-sand-300 bg-sand-50/50 dark:border-blue-600 dark:bg-transparent;
+  }
+
+  .kanban-column-done {
+    @apply border-sage-500 bg-honey-50/40 dark:border-green-600 dark:bg-transparent;
+  }
+
+  .badge-count {
+    @apply rounded-full bg-sage-100 px-2 py-0.5 text-xs font-medium text-sage-700 dark:bg-gray-700 dark:text-gray-400;
+  }
+}
+
+@layer utilities {
+  .light-deco-blob {
+    @apply pointer-events-none absolute rounded-full opacity-60 dark:hidden;
+  }
+}
