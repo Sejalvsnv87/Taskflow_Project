@@ -180,6 +180,26 @@ Get a free API key at: https://aistudio.google.com/apikey
 - **Backend:** Deploy to Render, Railway, or Fly.io
 - **Database:** Use a free hosted MySQL (PlanetScale, Railway, or Aiven)
 
+## Project Screenshots
+
+### 🔐 Login Page
+![Login Page](frontend/images/Login_page.png)
+
+### 📋 Dashboard
+![Dashboard](frontend/images/Dashboard.png)
+
+### 🔍 Search Page
+![Search Page](frontend/images/Search_page.png)
+
+### ✅ Task Page
+![Task Page](frontend/images/Task_page.png)
+
+### 📊 Analytics Page
+![Analytics Page](frontend/images/Analytics_page.png)
+
+### 🌙 Dark Mode
+![Dark Mode](frontend/images/Darkmode.png)
+
 ## Known Limitations
 
 - No real-time collaboration (single-user boards)
