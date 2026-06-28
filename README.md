@@ -180,6 +180,16 @@ Get a free API key at: https://aistudio.google.com/apikey
 - **Backend:** Deploy to Render, Railway, or Fly.io
 - **Database:** Use a free hosted MySQL (PlanetScale, Railway, or Aiven)
 
+## Live Demo
+
+- **Frontend:** https://taskflow-project-sejal3.vercel.app
+- **Backend API:** https://taskflowproject-production-5e19.up.railway.app/api/health
+- **Database:** Railway MySQL (hosted)
+
+### Demo credentials
+- Email: `sejalvaishnav15@gmail.com`
+- Password: `sejalvsnv`
+
 ## Project Screenshots
 
 ### 🔐 Login Page
