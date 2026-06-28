@@ -176,9 +176,9 @@ Get a free API key at: https://aistudio.google.com/apikey
 
 ## Deployment
 
-- **Frontend:** Deploy to Vercel or Netlify (set `VITE_API_URL` to your backend URL)
-- **Backend:** Deploy to Render, Railway, or Fly.io
-- **Database:** Use a free hosted MySQL (PlanetScale, Railway, or Aiven)
+- **Frontend:** Deploy to Vercel (set `VITE_API_URL` to your backend URL)
+- **Backend:** Deploy to Railway
+- **Database:** Use a free hosted MySQL (Railway)
 
 ## Live Demo
 
